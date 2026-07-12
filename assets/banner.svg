@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="55%" stop-color="#0d1a2e"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="keyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0d1a2e"/>
+    </linearGradient>
+    <linearGradient id="textGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cfe3ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <circle cx="980" cy="120" r="260" fill="url(#glowBlue)"/>
+  <circle cx="1000" cy="220" r="150" fill="url(#glowGold)"/>
+
+  <g stroke="#1e3a5f" stroke-width="1.5" opacity="0.5">
+    <path d="M0 60 H200 V100 H400"/>
+    <path d="M0 300 H150 V260 H350 V300 H520"/>
+    <path d="M1200 60 H1000 V30"/>
+    <path d="M1200 320 H1050 V280"/>
+    <circle cx="200" cy="60" r="4" fill="#3b82f6" stroke="none"/>
+    <circle cx="400" cy="100" r="4" fill="#3b82f6" stroke="none"/>
+    <circle cx="520" cy="300" r="4" fill="#fbbf24" stroke="none"/>
+    <circle cx="1000" cy="30" r="4" fill="#3b82f6" stroke="none"/>
+    <circle cx="1050" cy="280" r="4" fill="#fbbf24" stroke="none"/>
+  </g>
+
+  <g transform="translate(940,150)">
+    <path d="M0 -95 L82 -55 V25 C82 75 42 100 0 115 C-42 100 -82 75 -82 25 V-55 Z" fill="url(#shieldGrad)" stroke="#3b82f6" stroke-width="2" opacity="0.85"/>
+    <path d="M0 -75 L64 -43 V22 C64 62 33 82 0 94 C-33 82 -64 62 -64 22 V-43 Z" fill="none" stroke="#93c5fd" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(915,120) rotate(-18)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="url(#keyGrad)" stroke-width="10"/>
+    <rect x="18" y="-6" width="70" height="12" fill="url(#keyGrad)"/>
+    <rect x="72" y="6" width="10" height="16" fill="url(#keyGrad)"/>
+    <rect x="88" y="6" width="10" height="22" fill="url(#keyGrad)"/>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="150" cy="60" r="2.5" fill="#3b82f6"/>
+    <circle cx="220" cy="40" r="2" fill="#fbbf24"/>
+    <circle cx="80" cy="120" r="2" fill="#3b82f6"/>
+    <circle cx="300" cy="90" r="1.8" fill="#93c5fd"/>
+    <circle cx="60" cy="200" r="2.2" fill="#fbbf24"/>
+  </g>
+
+  <rect x="60" y="118" width="70" height="4" rx="2" fill="#fbbf24"/>
+
+  <text x="60" y="175" font-family="'Segoe UI', Arial, sans-serif" font-size="60" font-weight="700" fill="url(#textGlow)" textLength="1010" lengthAdjust="spacingAndGlyphs">
+    <tspan x="60" dy="0">Bluebeam Revu Full Access</tspan>
+  </text>
+  <text x="60" y="238" font-family="'Segoe UI', Arial, sans-serif" font-size="60" font-weight="700" fill="url(#textGlow)" textLength="330" lengthAdjust="spacingAndGlyphs">
+    <tspan x="60" dy="0">+ Product</tspan>
+  </text>
+
+  <text x="60" y="285" font-family="'Segoe UI', Arial, sans-serif" fill="#a9c2e0" textLength="1080.0" lengthAdjust="spacingAndGlyphs" font-size="21.0">
+    Bluebeam Revu Full Access + Product Key License Patch — a lightweight Windows tool.
+  </text>
+
+  <g opacity="0.6">
+    <line x1="60" y1="308" x2="260" y2="308" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="266" cy="308" r="4" fill="#fbbf24"/>
+  </g>
+</svg>
